@@ -44,14 +44,14 @@ Code repository for the **Transformers for Vision** book.
 - 2.24 Summary
 
 ### Chapter 3: Vision Transformers (ViT)
-- 1.1 Introduction to Vision Transformers and Comparison with CNNs
-- 1.2 Adapting transformers to images: patch embeddings and flattening
-- 1.3 Positional encodings in Vision Transformers
-- 1.4 Encoder-only structure for classification
-- 1.5 Benefits and drawbacks of ViT
-- 1.6 Real-World Applications of Vision Transformers
-- 1.7 Hands-on: fine-tuning ViT for image classification
-- 1.8 Summary
+- 3.1 Introduction to Vision Transformers and Comparison with CNNs
+- 3.2 Adapting transformers to images: patch embeddings and flattening
+- 3.3 Positional encodings in Vision Transformers
+- 3.4 Encoder-only structure for classification
+- 3.5 Benefits and drawbacks of ViT
+- 3.6 Real-World Applications of Vision Transformers
+- 3.7 Hands-on: fine-tuning ViT for image classification
+- 3.8 Summary
 
 ### Chapter 4: Efficient and Scalable Vision Transformers
 - Why ViT is data-hungry and computationally heavy
