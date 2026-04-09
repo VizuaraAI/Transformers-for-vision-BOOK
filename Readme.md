@@ -2,7 +2,7 @@
 
 Code repository for the **Transformers for Vision** book.
 
-> **Note:** Currently only Chapter 2 and Chapter 3 code is available. Code for all other chapters will be uploaded in the future.
+> **Note:** Currently Chapter 2, Chapter 3, and Chapter 4 code is available. Code for all other chapters will be uploaded in the future.
 
 ---
 
