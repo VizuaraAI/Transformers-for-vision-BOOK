@@ -1,0 +1,7 @@
+checkpoint,display_name,error,expected_gmacs_from_model_card,expected_parameters_m,measured_gmacs,measured_macs,model,parameters,representative_run,unsupported_operators
+convnext_tiny.fb_in1k,ConvNeXt-T,,4.5,28.6,4.469746176,4469746176,convnext,27897028,convnext-standard-seed42,"{'aten::add': 18, 'aten::gelu': 18, 'aten::mul': 18}"
+vit_small_patch16_224.augreg_in1k,ViT-S/16,,4.3,22.1,4.25032896,4250328960,vit,21704164,vit-standard-seed42,"{'aten::add': 25, 'aten::gelu': 12, 'aten::scaled_dot_product_attention': 12}"
+swin_tiny_patch4_window7_224.ms_in1k,Swin-T,,4.5,28.3,4.508503296,4508503296,swin,27596254,swin-standard-seed42,"{'aten::add': 41, 'aten::bernoulli_': 22, 'aten::div_': 22, 'aten::gelu': 12, 'aten::mean': 1, 'aten::mul': 34, 'aten::pad': 15, 'aten::rsub': 24, 'aten::softmax': 12}"
+efficientformer_l1.snap_dist_in1k,EfficientFormer-L1,,1.3,12.3,1.317055936,1317055936,efficientformer,11481728,efficientformer-standard-seed42,"{'aten::add': 32, 'aten::add_': 33, 'aten::avg_pool2d': 14, 'aten::div': 1, 'aten::gelu': 15, 'aten::mean': 1, 'aten::mul': 31, 'aten::softmax': 1, 'aten::sub': 14}"
+deit_small_patch16_224.fb_in1k,DeiT-S/16,,4.6,22.1,4.25032896,4250328960,deit,21704164,deit-standard-seed42,"{'aten::add': 25, 'aten::gelu': 12, 'aten::scaled_dot_product_attention': 12}"
+deit_small_distilled_patch16_224.fb_in1k,Distilled DeiT-S/16,,4.6,22.4,4.271649024,4271649024,deit_distilled,21743432,deit_distilled-standard-seed42,"{'aten::add': 26, 'aten::div': 1, 'aten::gelu': 12, 'aten::scaled_dot_product_attention': 12}"

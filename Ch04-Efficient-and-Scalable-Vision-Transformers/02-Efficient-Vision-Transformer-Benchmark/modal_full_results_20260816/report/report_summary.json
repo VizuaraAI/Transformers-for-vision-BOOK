@@ -1,0 +1,126 @@
+{
+  "aggregate": [
+    {
+      "best_validation_top1_mean": 89.86,
+      "display_name": "ConvNeXt-T",
+      "mode": "standard",
+      "model": "convnext",
+      "parameters_m": 27.897028,
+      "seeds": 1,
+      "test_top1_mean": 89.78,
+      "test_top1_std": NaN,
+      "test_top5_mean": 98.86,
+      "training_peak_memory_mb": 4245.66796875,
+      "training_seconds_mean": 2789.4574548180008
+    },
+    {
+      "best_validation_top1_mean": 89.6,
+      "display_name": "ViT-S/16",
+      "mode": "standard",
+      "model": "vit",
+      "parameters_m": 21.704164,
+      "seeds": 1,
+      "test_top1_mean": 89.22,
+      "test_top1_std": NaN,
+      "test_top5_mean": 98.32,
+      "training_peak_memory_mb": 2563.0244140625,
+      "training_seconds_mean": 1673.357545405
+    },
+    {
+      "best_validation_top1_mean": 89.54,
+      "display_name": "Swin-T",
+      "mode": "standard",
+      "model": "swin",
+      "parameters_m": 27.596254,
+      "seeds": 1,
+      "test_top1_mean": 89.54,
+      "test_top1_std": NaN,
+      "test_top5_mean": 98.65,
+      "training_peak_memory_mb": 4843.58154296875,
+      "training_seconds_mean": 3631.1184958180006
+    },
+    {
+      "best_validation_top1_mean": 86.86,
+      "display_name": "EfficientFormer-L1",
+      "mode": "standard",
+      "model": "efficientformer",
+      "parameters_m": 11.481728,
+      "seeds": 1,
+      "test_top1_mean": 86.83,
+      "test_top1_std": NaN,
+      "test_top5_mean": 98.26,
+      "training_peak_memory_mb": 2633.85888671875,
+      "training_seconds_mean": 1701.0025390570008
+    },
+    {
+      "best_validation_top1_mean": 89.71999999999998,
+      "display_name": "DeiT-S/16",
+      "mode": "standard",
+      "model": "deit",
+      "parameters_m": 21.704164,
+      "seeds": 3,
+      "test_top1_mean": 88.86,
+      "test_top1_std": 0.030000000000001137,
+      "test_top5_mean": 98.19666666666667,
+      "training_peak_memory_mb": 2563.0244140625,
+      "training_seconds_mean": 1676.6830429646668
+    },
+    {
+      "best_validation_top1_mean": 90.16666666666667,
+      "display_name": "Distilled DeiT-S/16",
+      "mode": "standard",
+      "model": "deit_distilled",
+      "parameters_m": 21.743432,
+      "seeds": 3,
+      "test_top1_mean": 89.45666666666666,
+      "test_top1_std": 0.2668957349478132,
+      "test_top5_mean": 98.26666666666667,
+      "training_peak_memory_mb": 2566.7571614583335,
+      "training_seconds_mean": 1701.7341956493337
+    },
+    {
+      "best_validation_top1_mean": 90.26666666666667,
+      "display_name": "Distilled DeiT-S/16",
+      "mode": "hard_kd",
+      "model": "deit_distilled",
+      "parameters_m": 21.743432,
+      "seeds": 3,
+      "test_top1_mean": 89.71999999999998,
+      "test_top1_std": 0.10999999999999943,
+      "test_top5_mean": 98.88999999999999,
+      "training_peak_memory_mb": 3051.60888671875,
+      "training_seconds_mean": 2477.565588236
+    }
+  ],
+  "completed_runs": 13,
+  "config_fingerprint": "7b87d57ae5546600c460245a81431288db34c3e40a44c2e83da01acc4160d731",
+  "distillation_gains": [
+    {
+      "gain_percentage_points": 0.09000000000000341,
+      "hard_kd_top1": 89.83,
+      "seed": 42,
+      "standard_top1": 89.74
+    },
+    {
+      "gain_percentage_points": 0.4000000000000057,
+      "hard_kd_top1": 89.61,
+      "seed": 43,
+      "standard_top1": 89.21
+    },
+    {
+      "gain_percentage_points": 0.29999999999999716,
+      "hard_kd_top1": 89.72,
+      "seed": 44,
+      "standard_top1": 89.42
+    }
+  ],
+  "figures": [
+    "validation_accuracy.png",
+    "distillation_gain.png",
+    "accuracy_throughput.png"
+  ],
+  "missing_runs": [],
+  "preset": "full",
+  "schema_version": 1,
+  "tutorial_only": false
+}

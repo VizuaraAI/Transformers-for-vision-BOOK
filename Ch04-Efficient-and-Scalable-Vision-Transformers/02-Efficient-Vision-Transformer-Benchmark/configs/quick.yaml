@@ -1,0 +1,50 @@
+name: quick
+tutorial_only: true
+description: Short instructional run; do not compare these values with the full benchmark.
+pretrained: true
+data:
+  root: data
+  split_seed: 2027
+  train_per_class: 50
+  val_per_class: 10
+  test_limit: 2000
+  input_size: 224
+  num_workers: 4
+training:
+  epochs: 3
+  batch_size: 64
+  backbone_lr: 0.00005
+  head_lr: 0.0005
+  weight_decay: 0.05
+  warmup_epochs: 1
+  min_lr: 0.000001
+  label_smoothing: 0.1
+  gradient_clip: 1.0
+  amp: true
+  random_erasing: 0.25
+benchmark:
+  precisions: [fp32, fp16]
+  batch_sizes: [1, 64]
+  warmup_iterations: 10
+  timed_iterations: 30
+  repeats: 3
+runs:
+  - model: convnext
+    mode: standard
+    seeds: [42]
+  - model: vit
+    mode: standard
+    seeds: [42]
+  - model: deit_distilled
+    mode: standard
+    seeds: [42]
+  - model: deit_distilled
+    mode: hard_kd
+    seeds: [42]
+  - model: swin
+    mode: standard
+    seeds: [42]
+  - model: efficientformer
+    mode: standard
+    seeds: [42]
+

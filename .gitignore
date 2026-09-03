@@ -1,0 +1,16 @@
+.DS_Store
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+
+# Python environments and generated caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

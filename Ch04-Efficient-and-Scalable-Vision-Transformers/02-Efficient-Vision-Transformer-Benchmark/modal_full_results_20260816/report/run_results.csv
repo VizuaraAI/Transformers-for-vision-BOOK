@@ -1,0 +1,14 @@
+run_key,model,display_name,mode,seed,best_epoch,best_validation_top1,test_top1,test_top5,parameters,parameters_m,training_seconds,training_peak_memory_mb,run_directory
+convnext-standard-seed42,convnext,ConvNeXt-T,standard,42,17,89.86,89.78,98.86,27897028,27.897028,2789.4574548180008,4245.66796875,/vol/artifacts/full/convnext-standard-seed42-7b87d57ae5
+vit-standard-seed42,vit,ViT-S/16,standard,42,20,89.6,89.22,98.32,21704164,21.704164,1673.357545405,2563.0244140625,/vol/artifacts/full/vit-standard-seed42-7b87d57ae5
+swin-standard-seed42,swin,Swin-T,standard,42,20,89.54,89.54,98.65,27596254,27.596254,3631.1184958180006,4843.58154296875,/vol/artifacts/full/swin-standard-seed42-7b87d57ae5
+efficientformer-standard-seed42,efficientformer,EfficientFormer-L1,standard,42,20,86.86,86.83,98.26,11481728,11.481728,1701.0025390570008,2633.85888671875,/vol/artifacts/full/efficientformer-standard-seed42-7b87d57ae5
+deit-standard-seed42,deit,DeiT-S/16,standard,42,20,89.8,88.89,98.09,21704164,21.704164,1639.156589266,2563.0244140625,/vol/artifacts/full/deit-standard-seed42-7b87d57ae5
+deit-standard-seed43,deit,DeiT-S/16,standard,43,20,89.7,88.86,98.22,21704164,21.704164,1688.338380226,2563.0244140625,/vol/artifacts/full/deit-standard-seed43-7b87d57ae5
+deit-standard-seed44,deit,DeiT-S/16,standard,44,18,89.66,88.83,98.28,21704164,21.704164,1702.554159402,2563.0244140625,/vol/artifacts/full/deit-standard-seed44-7b87d57ae5
+deit_distilled-standard-seed42,deit_distilled,Distilled DeiT-S/16,standard,42,19,90.04,89.74,98.25,21743432,21.743432,1680.1939577700005,2594.0869140625,/vol/artifacts/full/deit_distilled-standard-seed42-7b87d57ae5
+deit_distilled-standard-seed43,deit_distilled,Distilled DeiT-S/16,standard,43,20,90.16,89.21,98.24,21743432,21.743432,1683.276820501,2594.0869140625,/vol/artifacts/full/deit_distilled-standard-seed43-7b87d57ae5
+deit_distilled-standard-seed44,deit_distilled,Distilled DeiT-S/16,standard,44,19,90.3,89.42,98.31,21743432,21.743432,1741.7318086770006,2512.09765625,/vol/artifacts/full/deit_distilled-standard-seed44-7b87d57ae5
+deit_distilled-hard_kd-seed42,deit_distilled,Distilled DeiT-S/16,hard_kd,42,20,90.46,89.83,98.88,21743432,21.743432,2489.6353192010006,3051.60888671875,/vol/artifacts/full/deit_distilled-hard_kd-seed42-7b87d57ae5
+deit_distilled-hard_kd-seed43,deit_distilled,Distilled DeiT-S/16,hard_kd,43,20,90.06,89.61,98.94,21743432,21.743432,2475.6306675059996,3051.60888671875,/vol/artifacts/full/deit_distilled-hard_kd-seed43-7b87d57ae5
+deit_distilled-hard_kd-seed44,deit_distilled,Distilled DeiT-S/16,hard_kd,44,19,90.28,89.72,98.85,21743432,21.743432,2467.4307780010004,3051.60888671875,/vol/artifacts/full/deit_distilled-hard_kd-seed44-7b87d57ae5

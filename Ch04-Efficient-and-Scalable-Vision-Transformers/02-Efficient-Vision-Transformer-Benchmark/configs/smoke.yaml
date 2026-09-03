@@ -1,0 +1,52 @@
+name: smoke
+tutorial_only: true
+description: Local correctness check; its numbers are not benchmark results.
+pretrained: false
+data:
+  root: data
+  split_seed: 2027
+  train_per_class: 1
+  val_per_class: 1
+  test_limit: 100
+  input_size: 224
+  num_workers: 0
+training:
+  epochs: 1
+  batch_size: 2
+  backbone_lr: 0.00005
+  head_lr: 0.0005
+  weight_decay: 0.05
+  warmup_epochs: 0
+  min_lr: 0.000001
+  label_smoothing: 0.1
+  gradient_clip: 1.0
+  amp: false
+  random_erasing: 0.0
+benchmark:
+  precisions: [fp32]
+  batch_sizes: [1, 2]
+  warmup_iterations: 1
+  timed_iterations: 2
+  repeats: 1
+runs:
+  - model: convnext
+    mode: standard
+    seeds: [42]
+  - model: vit
+    mode: standard
+    seeds: [42]
+  - model: deit
+    mode: standard
+    seeds: [42]
+  - model: deit_distilled
+    mode: standard
+    seeds: [42]
+  - model: deit_distilled
+    mode: hard_kd
+    seeds: [42]
+  - model: swin
+    mode: standard
+    seeds: [42]
+  - model: efficientformer
+    mode: standard
+    seeds: [42]

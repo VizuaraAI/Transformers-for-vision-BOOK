@@ -1,0 +1,28 @@
+site_name: Efficient Vision Transformer Chapter Project
+site_description: A guided ViT, DeiT, Swin, and EfficientFormer benchmark
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Chapter project guide: chapter-project.md
+  - Setup: setup.md
+  - Project design: project-design.md
+  - Experiment protocol: experiment-protocol.md
+  - Run locally: running-locally.md
+  - Run on Modal: running-modal.md
+  - Interpret results: results.md
+  - Code tour: code-tour.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

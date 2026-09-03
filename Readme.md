@@ -57,8 +57,11 @@ Code repository for the **Transformers for Vision** book.
 - Why ViT is data-hungry and computationally heavy
 - DeiT: data-efficient training and knowledge distillation
 - Swin Transformer: hierarchical and multi-scale representation
-- Comparisons: DeiT vs Swin vs ViT
-- Hands-on: training DeiT and Swin on a benchmark dataset
+- Efficient/mobile variants and accuracy-throughput trade-offs
+- Comparisons: ViT vs DeiT vs Swin vs EfficientFormer
+- Chapter projects:
+  - [DeiT from scratch](Ch04-Efficient-and-Scalable-Vision-Transformers/01-Data-Efficient-Image-Transformers)
+  - [Controlled efficient-transformer benchmark](Ch04-Efficient-and-Scalable-Vision-Transformers/02-Efficient-Vision-Transformer-Benchmark)
 
 ### Chapter 5: Transformers for Detection and Segmentation
 - Object detection revisited: from R-CNN to anchor-free detection
