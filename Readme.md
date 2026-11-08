@@ -57,11 +57,13 @@ Code repository for the **Transformers for Vision** book.
 - Why ViT is data-hungry and computationally heavy
 - DeiT: data-efficient training and knowledge distillation
 - Swin Transformer: hierarchical and multi-scale representation
+- Looped ViT: shared transformer blocks, self-distillation, and early exit
 - Efficient/mobile variants and accuracy-throughput trade-offs
 - Comparisons: ViT vs DeiT vs Swin vs EfficientFormer
 - Chapter projects:
-  - [DeiT from scratch](Ch04-Efficient-and-Scalable-Vision-Transformers/01-Data-Efficient-Image-Transformers)
-  - [Controlled efficient-transformer benchmark](Ch04-Efficient-and-Scalable-Vision-Transformers/02-Efficient-Vision-Transformer-Benchmark)
+  - [DeiT from scratch with figures (CIFAR-10)](Ch04-Efficient-and-Scalable-Vision-Transformers/01-DeiT-from-Scratch/DeiT_from_scratch.ipynb)
+  - [Swin from scratch with figures (CIFAR-10)](Ch04-Efficient-and-Scalable-Vision-Transformers/02-Swin-from-Scratch/Swin_from_scratch.ipynb)
+  - [Looped ViT from scratch with figures (CIFAR-100)](Ch04-Efficient-and-Scalable-Vision-Transformers/03-Looped-Vision-Transformer/Looped_ViT_from_scratch.with_figures.ipynb)
 
 ### Chapter 5: Transformers for Detection and Segmentation
 - Object detection revisited: from R-CNN to anchor-free detection
