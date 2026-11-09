@@ -57,7 +57,7 @@ Code repository for the **Transformers for Vision** book.
 - Why ViT is data-hungry and computationally heavy
 - DeiT: data-efficient training and knowledge distillation
 - Swin Transformer: hierarchical and multi-scale representation
-- Looped ViT: shared transformer blocks, self-distillation, and early exit
+- Looped ViT: shared transformer blocks and the parameter–accuracy trade-off
 - Efficient/mobile variants and accuracy-throughput trade-offs
 - Comparisons: ViT vs DeiT vs Swin vs EfficientFormer
 - Chapter projects:
